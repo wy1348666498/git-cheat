@@ -1,0 +1,7 @@
+<template>
+  <div>若没有可依靠之处，便也找不到自己的归宿，躲躲藏藏随波逐流，依附于某物，却又一头撞在看不见的墙壁上。--我的青春恋爱物语果然有问题--hitokoto</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
