@@ -1,0 +1,7 @@
+<template>
+  <div>“一个真正想死的人 不会再计较人们说什么 一个拿死说来说去的人 以我的经验来看 并不是真的想死 而是……” “而是什么？” “而是还在……还在渴望爱”--务虚笔记--妖酆</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
