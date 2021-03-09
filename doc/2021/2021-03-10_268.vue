@@ -1,0 +1,7 @@
+<template>
+  <div>那天放学的时候人很多。楼道很挤，你的手不小心碰到了我的手背，这是我漫长而又短暂的初恋。--九ちのセカィ--Sai</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
