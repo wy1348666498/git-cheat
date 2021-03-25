@@ -1,0 +1,7 @@
+<template>
+  <div>她太年轻了，殊不知命运馈赠的礼物已在暗地里标明了价格。--断头王后--亚亚努阿</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
