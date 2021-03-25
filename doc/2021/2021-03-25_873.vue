@@ -1,0 +1,7 @@
+<template>
+  <div>过去的事情可以不忘记，但一定要放下。--网络--Sai</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
