@@ -1,0 +1,7 @@
+<template>
+  <div>若觉得生活索然无味，可观察时间的流逝，观察万物的轮回。观察，让人充满活力，让人珍惜现在。--yuanziyu--yuanziyu</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
