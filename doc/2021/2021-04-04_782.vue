@@ -1,0 +1,7 @@
+<template>
+  <div>生命从无中来，到无中去，每个人都处于“上场——谢幕”这样一个循环中。这个循环不是悲伤，不是无意义，意义就在这过程中;生命之所以有趣，就在于过程中的体验和收获。--le petit prince--yeye</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
