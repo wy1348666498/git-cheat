@@ -1,0 +1,7 @@
+<template>
+  <div>认识你，即是你的命运，也是我的命运，我们成为好朋友，我们的命运就都一下好了，而我们成为敌人，我们的命运就一起坏了。--魁拔--沫夏孤水</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
