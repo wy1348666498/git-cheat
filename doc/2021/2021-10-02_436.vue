@@ -1,0 +1,7 @@
+<template>
+  <div>黑暗不能驱除黑暗，只有光明可以做到；仇恨不能驱除仇恨，只有爱可以做到。--网络--Avatien</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
