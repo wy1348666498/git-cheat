@@ -1,0 +1,7 @@
+<template>
+  <div>你要足够完整，才能健康地去爱其他人，去照顾和负担其他人。孤独的核心价值是——跟自己在一起。--孤独六讲--羊</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
