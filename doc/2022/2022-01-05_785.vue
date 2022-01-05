@@ -1,0 +1,7 @@
+<template>
+  <div>驱动着这个世界的，并非只有眼睛能够看到的东西。就像只观察结晶回路的轮盘是无法知晓齿轮的运动一样……--空之轨迹--hitokoto</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
