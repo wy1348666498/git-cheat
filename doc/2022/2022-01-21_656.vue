@@ -1,0 +1,7 @@
+<template>
+  <div>这个世界上不存在绝对的免费，哪怕你摘一个野果也是要向果树付出劳动的！--原创--墨影</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
