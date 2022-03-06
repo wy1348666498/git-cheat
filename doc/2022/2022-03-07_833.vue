@@ -1,0 +1,7 @@
+<template>
+  <div>我们还没年老到，对被注定的未来，欣然接受的年纪。想要去到更高的地方，我们便无所畏惧。--数码宝贝：最后的进化 絆--eaea</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
