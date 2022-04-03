@@ -1,0 +1,7 @@
+<template>
+  <div>最温柔的，是刷牙时刚好舒服的力气，吃菜时刚好合适的辣度，还有拥抱你时刚好你也抱着我。--友之--友之</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
