@@ -1,0 +1,7 @@
+<template>
+  <div>第一，生存是文明的第一需要；第二，文明不断增长和扩张，但宇宙中的物质总量保持不变。--三体：黑暗森林--DreamOne</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
