@@ -1,0 +1,7 @@
+<template>
+  <div>不知道从什么时候开始，什么东西上都会有个日期，秋刀鱼会过期，肉罐头会过期，连保鲜纸都会过期，我开始怀疑，还有什么东西是不会过期的？--重庆森林--空白</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
