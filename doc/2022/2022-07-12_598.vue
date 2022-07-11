@@ -1,0 +1,7 @@
+<template>
+  <div>我经常有那种感觉，如果这个事情来了，你却没有勇敢地去解决掉，它一定会再来。生活真是这样，它会一次次地让你去做这个功课直到你学会为止。--像我这样笨拙地生活--Yousazoe</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
