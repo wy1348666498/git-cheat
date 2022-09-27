@@ -1,0 +1,7 @@
+<template>
+  <div>成功的花，人们只羡慕她现时的明艳。而当初的芽，却浸透了奋斗的泪泉，洒满了牺牲的血雨！--成功的花--Misaka-h</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
