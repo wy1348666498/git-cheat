@@ -1,0 +1,7 @@
+<template>
+  <div>你在桥上看风景，看风景人在楼上看你。 明月装饰了你的窗子，你装饰了别人的梦。--断章--hasty</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
