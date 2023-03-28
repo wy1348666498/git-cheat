@@ -1,0 +1,7 @@
+<template>
+  <div>我们也许再也不会见面了吧，因此我绝对不会忘了你的声音，你的眼眸，与你一起看到过的所有的景色，以及，与你一起度过的那个耀眼的夏天。--草莓100%--hitokoto</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
