@@ -1,0 +1,7 @@
+<template>
+  <div>上帝点头给你想要的，摇头给你更好的，他让你等，就是要给你最棒的❤--喵小皮--喵小皮</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
