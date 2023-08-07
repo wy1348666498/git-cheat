@@ -1,0 +1,7 @@
+<template>
+  <div>个人的一生都可以用来逐梦、体验各种未知，而不是一天重复了几十年。--RS-Nocsi--博客论坛--Abyss</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
