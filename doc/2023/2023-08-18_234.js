@@ -1,3 +1,3 @@
 export function generateDoc(){
-    return '我动身踏上旅程，是为了与你道别。--追逐繁星的孩子--2416790970'
+    return '别让女孩免费看到你的优点，因为那都是很迷人，很值钱的东西。--linkey2011--key lin'
 }
