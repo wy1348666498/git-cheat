@@ -1,0 +1,7 @@
+<template>
+  <div>如果不愿意从梦里醒过来，那就一直沉溺下去；反正现实里，地狱的景象附拾皆是，还不如一个好梦……--原创--夏遇星</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
