@@ -1,5 +1,5 @@
 const NotFound = () => {
-  return <div>邓林之阴初见昆仑君，惊鸿一瞥，乱我心曲。--镇魂--晚宁是我的</div>
+  return <div>黎明之前总有一段时间特别黑。--网络--Soiltary、K</div>
 }
 
 export default NotFound
