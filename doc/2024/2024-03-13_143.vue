@@ -1,0 +1,7 @@
+<template>
+  <div>要逃避痛苦，最常见的，就是躲进未来。在时间的轨道上人们想象有一条线，超脱了这条线，当前的痛苦遍不复存在。--不能承受的生命之轻--Yousazoe</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
