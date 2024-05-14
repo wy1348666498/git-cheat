@@ -1,0 +1,7 @@
+<template>
+  <div>我们人是需要吃饭、工作和休息的生物，只要满足了其中一项，其他两项也会逐渐满足，而当这三项都满足后，就会得到强烈的存在感。--银魂--逗逼领主</div>
+</template>
+
+<script setup lang="ts"></script>
+
+<style scoped></style>
