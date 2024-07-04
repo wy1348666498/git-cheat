@@ -42,10 +42,27 @@ async function commitFileToGit(filePath, dateStr) {
         await git.add(filePath)
         // 提交文件到 Git，使用指定的日期
         await git.commit(`feat: 提交${filePath.split('.')[1]}文件`, filePath, { '--date': dateStr })
-        // 推送
-        await git.push('origin', 'master')
+
+        let retryNum= 3
+        async function pushFun(){
+            try {
+                // 推送
+                await git.push('origin', 'master')
+            } catch (e) {
+                retryNum--
+                if(retryNum>=0){
+                    await pushFun()
+                } else {
+                    return Promise.reject(e)
+                }
+            }
+        }
+        await pushFun()
+
+
     } catch (error) {
         console.error(`提交文件到 Git 时出错：${filePath}`, error.message)
+        return Promise.reject(error)
     }
 }
 
@@ -128,6 +145,7 @@ async function generateFileDocAndGit(startDate, endDate) {
         let currentDate = start
         let totalDays = end.diff(start, 'day') + 1
         const bar = new ProgressBar(':bar (:current/:total)', { total: totalDays, clear: true })
+        bar.tick(0)
 
         // 循环处理每一天的日期
         while (currentDate.isBefore(end) || currentDate.isSame(end, 'day')) {
@@ -143,8 +161,8 @@ async function generateFileDocAndGit(startDate, endDate) {
             // 提交多次文件，每次生成一个随机时间
             let currentTime = dayjs(`${dateStr} ${getRandomTime()}`)
             let nums = 0
-            const totalNum =Math.floor(Math.random()*5)+1
-            while (currentTime.isSame(currentDate, 'day')&&nums<totalNum) {
+            const totalNum =Math.floor(Math.random()*7)+1
+            while (currentTime.isSame(currentDate, 'day')&&nums<=totalNum) {
                 // 获取随机一言内容
                 const doc = await getRandomSentence()
                 // 将内容整合为一个数组，过滤空值
@@ -171,8 +189,6 @@ async function generateFileDocAndGit(startDate, endDate) {
     }
 }
 
-// generateFileDocAndGit('2020-10-27', '2024-07-04')
-
 /**
  * 提交所有文件到 Git，并指定提交日期。
  * @param {string} commitMessage 提交信息
@@ -194,4 +210,6 @@ async function commitWithDate(commitMessage, commitDate) {
         console.error('提交时发生错误: ', err)
     }
 }
-commitWithDate('feat: 项目初始化', '2020-10-26')
+
+// generateFileDocAndGit('2022-01-01', '2024-07-04')
+// commitWithDate('feat: 项目初始化', '2020-10-26')
